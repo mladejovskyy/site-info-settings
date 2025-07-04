@@ -12,6 +12,7 @@ if(!defined('ABSPATH')) exit;
 // Include separate files
 require_once plugin_dir_path(__FILE__) . 'includes/settings-register.php';;
 require_once plugin_dir_path(__FILE__) . 'includes/settings-page.php';;
+require_once plugin_dir_path(__FILE__) . 'includes/orders-cpt.php';;
 
 add_action('wp_footer', function () {
     if (is_admin()) return; // Don’t show this in admin

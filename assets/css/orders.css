@@ -1,0 +1,38 @@
+.sis-order-fields {
+    display: grid;
+    gap: 24px;
+}
+
+.sis-order-fields .form-control {
+    display: grid;
+    gap: 4px;
+}
+
+.sis-order-fields label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #1e1e1e;
+}
+
+.sis-order-fields input,
+.sis-order-fields select {
+    width: 100%;
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.sis-order-fields select {
+    background-color: #fff;
+}
+
+.sis-order-fields {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    max-width: 600px;
+}
